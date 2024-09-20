@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--colocando a linguagem em portugues Br-->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Site</title> <!--titulo que ficara disponivel no canto superior do site-->
+    <link rel="stylesheet" href="style.css"> <!--mostrando o caminho do nosso CSS-->
+</head>
+
+
+<body>
+    <header>
+        <h1> Tudo sobre jogos </h1> <!--Criando titulo so site-->
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite os jogos deseja procurar" id="campo-pesquisa"> <!--Criando barra de pesquisa-->
+            <button onclick="pesquisar()"> Pesquisar </button> <!--Criando um botão-->
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"> <!--Adicionando uma classe-->
+        </section>
+    </main>
+    <footer> <!--Parte inferior do site-->
+        <p>Site em criação todos os direitos reservados. </p>
+        <p>Criado 02/09/2024</p>
+    </footer>
+    <script src="dados.js"></script> <!-- adicionando o javajs em nosso projeto\ linkar o js-->
+    <script src="app.js"></script> 
+</body>
+</html>
