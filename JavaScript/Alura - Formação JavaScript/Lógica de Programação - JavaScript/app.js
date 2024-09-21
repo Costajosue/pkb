@@ -1,5 +1,6 @@
 alert('Boas vindas ao jogo do número secreto'); // Utilizando o <'alert'> para passar uma mensagem ao usuario.
-let numeroSecreto = parseInt(Math.random() * 100 + 1); // Criando uma variavel, com isso estou utilizando o <'let'> e logo após defino o nome da minha variavel. Utilizo tambem a funão <Mart.random> que vai gerar numeros aleatorios / usando o <parentInt> para pegar somente o numero inteiro, pois quando geramos um numero no range ele pode vir como numero inteiro ou não;
+let numeroEscolhido = prompt('Até que número voce deseja se desafiar a acertar! ')
+let numeroSecreto = parseInt(Math.random() * numeroEscolhido + 1); // Criando uma variavel, com isso estou utilizando o <'let'> e logo após defino o nome da minha variavel. Utilizo tambem a funão <Mart.random> que vai gerar numeros aleatorios / usando o <parentInt> para pegar somente o numero inteiro, pois quando geramos um numero no range ele pode vir como numero inteiro ou não;
 console.log(numeroSecreto); //Exibindo o numero no console.
 let chute; // criando uma variavel chute que ira armazenar as respostas do usuario.
 let tentativas = 1 // criando variavel de numero de tentativas
@@ -8,7 +9,7 @@ let tentativas = 1 // criando variavel de numero de tentativas
 // <!> = "não for igual" "Diferente"
 while (chute != numeroSecreto) {
 
-    chute = prompt('Escolha um número entre 1 e 100'); // Pedindo ao usuário para digitar número de 1 a 30 utilizando o <'prompt'> e vamos definir o valor a variavel chute;
+    chute = prompt(`Escolha um número entre 1 e ${numeroEscolhido}`); // Pedindo ao usuário para digitar número de 1 a 30 utilizando o <'prompt'> e vamos definir o valor a variavel chute;
     // Condição: se numeroSecreto for igual ao chute o programa exibira:
     if (chute == numeroSecreto) {  // Utilizando o <If> para comparar e Utilizando os () para declarar o que queremos comparar
         // Parar codigo
