@@ -8,7 +8,7 @@
 
 #– 30 até 40: Obesidade
 
-#– Acima de 40: Obesidade Mórbida
+# Acima de 40: Obesidade Mórbida
 
 peso = float(input('Qual seu peso (KG)?'))
 altura = float(input('Qual a sua altura?'))
