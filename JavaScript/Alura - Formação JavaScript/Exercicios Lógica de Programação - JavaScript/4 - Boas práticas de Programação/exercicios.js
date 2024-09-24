@@ -4,3 +4,5 @@
 
 // Respostas:
 // https://github.com/alura-cursos/logica-js/tree/desafios
+
+// 1- Crie um programa que utilize o console.log para exibir uma mensagem de boas-vindas:
