@@ -1,0 +1,1 @@
+let numeroSecreto = parseInt(Math.random() * numeroEscolhido + 1);
