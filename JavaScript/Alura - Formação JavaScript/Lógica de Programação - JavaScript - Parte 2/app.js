@@ -19,7 +19,8 @@ exibirTextoNaTela('p', 'Escolha um número entre 1 e 10:'); // executando a fun�
 
 // Criando função para verificar quando o número for criado:
 function verificarChute() {
-    console.log(numeroSecreto);
+    let chute = document.querySelector('input').value; // crindo uma variavel que irá selecionar a tag input e o value para pegar so o valor que o usuario for digitar
+    console.log(chute == numeroSecreto); // conparar o valor 
 }
 
 // Criando função que ira gerar um número aleatorio.
