@@ -5,3 +5,8 @@ titulo.innerHTML = 'Jogo do Número secreto';  // inserir um texto
 // Manipulando texto "<p></p>":
 let paragrafo = document.querySelector('p'); // Criando uma variavel "paragrafo" e utilizando o document.querySelector('p') para selecionar e alterar texto no HTML.
 paragrafo.innerHTML = 'Escolha um número entre 1 e 10:'; // inserir um texto 
+
+// Criando funções:
+function verificarChute() {
+    console.log('O Botão foi clicado!')
+}
