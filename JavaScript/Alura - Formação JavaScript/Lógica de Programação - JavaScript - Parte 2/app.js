@@ -15,6 +15,8 @@ let tentativas = 1 ;
 function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    // Utilizando o responsive Voice para que nosso programa ao ser executado fale com o usuario.
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2})
 }
 
 function exibirMensagemInicial(){
