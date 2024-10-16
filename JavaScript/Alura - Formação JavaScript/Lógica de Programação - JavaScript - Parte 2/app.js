@@ -1,5 +1,8 @@
+let listaDeNumerosSorteados = []; // Crinado uma lista vazia 
+let numeroLimite = 10;
 let numeroSecreto  = gerarNumeroAleatorio(); // Criando uma variavel que ira receber o número secreto gerado na função na linha 26 e executando ela.
 let tentativas = 1 ;
+
 // Manipulando texto "<h1></h1>":
 // let titulo = document.querySelector('h1'); // Criando uma variavel "titulo" e utilizando o document.querySelector('h1') para selecionar e alterar texto no HTML.
 // titulo.innerHTML = 'Jogo do Número secreto';  // inserir um texto 
@@ -46,7 +49,22 @@ function verificarChute() { // se o usuario acertar
 
 // Criando função que ira gerar um número aleatorio.
 function gerarNumeroAleatorio() {
-    return parseInt(Math.random() * 10 + 1); // Utilizando o return para assim que executarmos o fanção ele ira retornar o resultado.
+    let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1); // Utilizando o return para assim que executarmos o fanção ele ira retornar o resultado.
+    let quntidadeDeElementosNaLista = listaDeNumerosSorteados.length;
+
+    if (quntidadeDeElementosNaLista == numeroLimite) {
+        listaDeNumerosSorteados = [];
+    }
+
+    if (listaDeNumerosSorteados.includes(numeroEscolhido)) { // se o numeros sorteado estiver dentro de numero escolhido, ele irá gerar um novo numero.
+        return gerarNumeroAleatorio();
+    }
+    else { // se não 
+        listaDeNumerosSorteados.push(numeroEscolhido); // o numero escolhido sera adicionado a lista de numero sorteados 
+        console.log(listaDeNumerosSorteados);
+        return numeroEscolhido;
+    }
+    
 }
 
 // Criando função para limpar o campo onde o usuário digita seu chute

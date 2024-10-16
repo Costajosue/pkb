@@ -68,7 +68,7 @@ mostrarPerimetroSala(raio);
 function mostrarTabuadaTela(numero2) {
     for (let i = 0; i <= numero2; i++ ) {
         let resultado = numero * i;
-        console.log(`${numero} X ${i} = ${resultado}`);
+        console.log(`${numero} X ${i} = ${resultado}`)
 
     }
 }
