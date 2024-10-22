@@ -4,9 +4,9 @@
 
 ## See some of the themes that can be found in this repository:
 
-* **[Curso Em Video - Mundo I](https://github.com/Costajosue/public_knowledge_base/tree/main/Python/Curso%20em%20video%20-%20Mundo%20I)**
+* **[JavaScript](https://github.com/Costajosue/pkb/tree/main/JavaScript)** In this repository I show my entire journey with the Javascript language with a complete course of the language, I also show some exercises
 
-* **[Python](https://github.com/Costajosue/public-Knowledge-base/tree/main/Python)**
+* **[Python](https://github.com/Costajosue/pkb/tree/main/Python)** In this repository I show my entire journey with the python language
 
 * **[Imersão Dev com Google Gemini](https://github.com/Costajosue/public-Knowledge-base/tree/main/Imers%C3%A3o%20Dev%20com%20gemini)** Creating my first website in HTML, CSS and Javascript.
 
