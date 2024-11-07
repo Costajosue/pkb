@@ -1,0 +1,13 @@
+/*Criando classes para usar no HTML */
+
+.titulo{
+    font-size: 3rem; /*Tamanho da fonte do titulo*/
+    color: #333; /*Definindo cor do texto*/
+    text-align: center; /* alinhamento do texto que carrega esta classe*/
+}
+.fonte-grande{
+    font-size: 40px;/*tamanho da fonte em pixel*/
+}
+.sublinhado{
+    text-decoration: underline;
+}
