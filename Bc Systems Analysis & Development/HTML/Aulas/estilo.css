@@ -2,12 +2,26 @@
 
 .titulo{
     font-size: 3rem; /*Tamanho da fonte do titulo*/
-    color: #333; /*Definindo cor do texto*/
-    text-align: center; /* alinhamento do texto que carrega esta classe*/
+    color: #333 ; /*Definindo cor do texto*/
+    text-align: center ; /* alinhamento do texto que carrega esta classe*/
 }
 .fonte-grande{
     font-size: 40px;/*tamanho da fonte em pixel*/
 }
 .sublinhado{
-    text-decoration: underline;
+    text-decoration: underline ;
+}
+.cor{
+    color: blue;
+}
+
+/* Criando ID’s */
+
+#botao-bonito{
+    color: white; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: green;
 }
