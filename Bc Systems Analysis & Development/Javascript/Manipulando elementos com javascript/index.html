@@ -1,0 +1,23 @@
+<!-- manipulando elementos da pagina somente com javascript  -->
+
+<html>
+    <head>
+        <style>
+            .conteiner{
+                width:400px;
+                height:400px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="conteiner">
+            <h1>Olá mundo!</h1>
+        </div>
+        <script>
+            var el = document.querySelectorAll('.conteiner h1');
+
+            el[1].innerHTML = "Ola mundo via js!"
+        </script>
+    </body>
+</html>
