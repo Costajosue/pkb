@@ -1,0 +1,23 @@
+/* Estilizando um parágrafo (<p>) */
+body{
+    background-color:goldenrod;
+}
+
+
+h1 {
+    color:black; /* Define a cor do texto como azul */
+    font-size: 50px; /* Define o tamanho da fonte */
+    font-variant:unset;
+    text-align: center;
+
+}
+
+
+p {
+    color:black; /* Define a cor do texto como azul */
+    font-size: 20px; /* Define o tamanho da fonte */
+    margin-bottom: 20px; /*Define espaços de 1 linha entrega os paragrafos*/
+    text-align:center;
+    
+  }
+
