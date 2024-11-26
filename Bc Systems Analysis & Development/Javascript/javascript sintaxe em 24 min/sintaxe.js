@@ -7,7 +7,7 @@
 // mensagem = 15; // Trocando o valor da variavel mensagem por o numero 15.
 // console.log(mensagem);
 
-//já se criarmos uma constante, não podemos editar ou trocar o valor como nas variaveis.
+// // já se criarmos uma constante, não podemos editar ou trocar o valor como nas variaveis.
 // const mensagem1 = "Josué"; // declarando a constante.
 // console.log(mensagem1); // exibindo o constante no conslole da pagina.
 // mensagem = 15; // Trocando o valor da constante mensagem por o numero 15.
@@ -60,6 +60,9 @@
 // finalSemana.forEach(function(dia){ // Usando o for para percorrer nosso array, pois se tivessemos mais de 100 iteis em nosso array ficaria muito dificil pedir exibir no console 100 frazes e para isso, criamos tambem uma função dia, para que seja executada abaixo;
 //     console.log('Final de semana: ' + dia);
 // })
+
+
+// Codigo:
 
 
 
