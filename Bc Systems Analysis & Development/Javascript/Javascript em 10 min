@@ -1,29 +1,27 @@
-<!-- Aprendendo os comandos basicos encinados na faculadade de javascript -->
+Aprendendo os comandos basicos ensinados na faculadade de javascript
 
-<!-- <script>
+<script>
      console,log("olá, mundo! "); // mensagem que ira ser exibida no console
      document.write("Olá, mundo!"); // escrever na tela / no proprio documento
-</script> -->
+</script>
 
 
 
-<!-- Criando variaveis -->
+Criando variaveis
 
-<!-- <script>
+<script>
     var nome = "Josue";
     var idade = 20;
     var OutraVariavel = true;
 
     console.log(nome); // chamar no console
     document.write(idade); // chamar na tela
-
-</script> -->
-
+</script>
 
 
-<!-- concatenar variaveis -->
+concatenar variaveis
 
-<!-- <script>
+<script>
     var nome1 = "Josue";
     var nome2 = "Maria";
     // var idade = 20;
@@ -33,12 +31,12 @@
 
     document.write(nomeFinal);
 
-</script> -->
+</script>
 
 
-<!-- Trabalhando com operadores \ comparar valores. -->
+Trabalhando com operadores \ comparar valores.
 
-<!-- <Script>
+<Script>
     var num1 = 10;
     var num2 = 20;
     var resutado = num1+num2;
@@ -49,32 +47,32 @@
         console.log("Falso");
     }
 
-</Script> -->
+</Script>
 
 
-<!-- Aprendendo array -->
+Aprendendo array
 
- <!-- <script>
+ <script>
     var frutas = ["maça", "pera", "uva", 10,false,true];
     console.log(frutas[2]);
- </script> -->
+ </script>
 
 
- <!-- Estruturas de repetição -->
+ Estruturas de repetição
 
-<!-- <script>
+<script>
     for(var i = 0; i < 10,  i++){
         console.log(i);
     }
 
-</script> -->
+</script>
 
-<!-- funçoes -->
+funçoes
 
-<!-- <Script>
+<Script>
     mostrarNome("Gulherme")
 
     function mostrarNome(nome){
         console.log(nome)
     }
-</SCRipt> -->
+</SCRipt>
