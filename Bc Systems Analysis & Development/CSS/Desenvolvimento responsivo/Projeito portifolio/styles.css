@@ -1,0 +1,161 @@
+body {
+    margin: 0; /*adicionando bordas*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*estilo da fonte*/
+}
+
+header {
+    background-color: #f0f0f0; /*Define cor de fundo*/
+    padding: 20px; /*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    text-align: center; /*texto é centralizado.*/
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 300px; /* Conteúdo principal e barra lateral */
+    gap: 20px;
+    padding: 20px;}
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr; /* 3 colunas de igual tamanho */
+        grid-gap: 10px; /* Espaçamento entre os itens */
+      }
+      
+      .item {
+        background-color: #f0f0f0;
+        padding: 10px;
+        text-align: center;
+      }
+    h2{
+         text-align: center; /*texto é centralizado.*/
+    }
+
+
+      /* Estilos para telas menores que 768px de largura */
+@media (max-width: 767px) {
+    .elemento {
+      width: 100%;
+    }
+  }
+  
+  /* Estilos para telas maiores que 768px de largura */
+  @media (min-width: 768px) {
+    .elemento {
+      width: 50%;
+    }
+  }
+
+  /* Adicionando os estilos CSS para o menu de navegação e o ícone */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .menu-mobile {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .linha {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Estilos para dispositivos móveis */
+  @media (max-width: 768px) {
+    nav ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    nav li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .menu-mobile {
+      display: block;
+    }
+  }
+
+  /* Estilos para tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  /* Estilos para formulários */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para dispositivos móveis */
+  @media (max-width: 768px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+  
+    th, td {
+      white-space: nowrap;
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width:100%; /* Ocupa toda a largura disponível */
+  }
+  
+  .container img {
+    max-width: 20%; /* Impede que a imagem exceda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+  }
