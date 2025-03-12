@@ -7,12 +7,12 @@ import pandas as pd # importando o pandas.
 # EX: Quero analisar os dados dos passageiros do Titanic, disponíveis como um arquivo CSV:
 
 Importando_CSV = pd.read_csv(r"C:\Users\Josue\Documents\Projetos Github\public_knowledge_base\Python\Projetos Pessoais\Pandas\vendas.csv")
-# Read para inportar a planilia.
+# Read para importar a planilia.
 
 # PRATICANDO ALGUNS COMANDOS QUE JA APRENDI:
     
     # print(Importando_CSV) = Exibir o arquivo
-    # print(Importando_CSV.max()) = Maximo de alhuma coluna
+    # print(Importando_CSV.max()) = Maximo de alguma coluna
     # print(Importando_CSV.describe()) # discrição de alguma coluna
     # print(Importando_CSV["Produto"]) # Filtrar uma coluna
 
@@ -21,7 +21,8 @@ Importando_CSV = pd.read_csv(r"C:\Users\Josue\Documents\Projetos Github\public_k
 # Quero ver as primeiras 8 linhas de um DataFrame do pandas:
 
 # Para ver as primeiras N linhas de um DataFrame, use o head()método com o número necessário de linhas (neste caso 8) como argumento.
-    # print(Importando_CSV.head(2)) = ver quantidades de linhas x que o usiario determinar. começando de cima para baixo.
+    # print(Importando_CSV.head(2)) = ver quantidades de linhas x que o usuario determinar. começando de cima para baixo.
+    
 # se o usuario solicitar as ultimas linhas (sentido de baixo para cima) temos que utilizar:
     #print(Importando_CSV.tail(2))
 

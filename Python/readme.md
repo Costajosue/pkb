@@ -17,3 +17,5 @@ Here are some of the courses I took:
 * **[Curso Plataforma Alura](https://github.com/Costajosue/public_knowledge_base/tree/main/Python/Alura%20-%20Python)**
 
 * **[Exercícios HackerRank](https://github.com/Costajosue/public_knowledge_base/tree/main/Python/HackerRank%20-%20Python)**
+
+* **[PyData.org - Pandas](https://github.com/Costajosue/public_knowledge_base/tree/main/Python/Alura%20-%20Python)**

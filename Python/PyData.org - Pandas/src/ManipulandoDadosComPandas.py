@@ -28,7 +28,7 @@ DataFrame = pd.DataFrame(
         "Sexo":["Masculino", "Masculino", "Feminino"],
     }
 )
-        #print(DataFrame)
+#print(DataFrame)
 
 # Para armazenar dados manualmente em uma tabela, crie um DataFrame. Ao usar um dicionário Python de listas, as chaves do dicionário 
 # serão usadas como cabeçalhos de coluna e os valores em cada lista como colunas do DataFrame.
@@ -60,6 +60,6 @@ DataFrame = pd.DataFrame(
         #print(DataFrame.describe())
 
 # Transformar em ukma planilia em exel de forma simples:
-print(DataFrame.to_excel("teste03.xlsx", sheet_name="passagem", index=False))
-print(DataFrame.head())
+# print(DataFrame.to_excel("teste03.xlsx", sheet_name="passagem", index=False))
+# print(DataFrame.head())
 #finalizando

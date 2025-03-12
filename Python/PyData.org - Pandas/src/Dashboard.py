@@ -6,9 +6,9 @@
 
 # # Abaixo vou estar construindo um layout do Dashboard: 
 
-# # inportar a planilia com os dados:
+# # importar a planilia com os dados:
 # app = Dash(__name__)
-# # df = pd.read_excel("Vendas.xlsx")
+# df = pd.read_excel("Vendas.xlsx")
 # df = pd.read_excel("C:\Users\Josue\Documents\Projetos Github\public_knowledge_base\Python\Projetos Pessoais\Vendas.xlsx")
 
 # def Criando_grafico():
