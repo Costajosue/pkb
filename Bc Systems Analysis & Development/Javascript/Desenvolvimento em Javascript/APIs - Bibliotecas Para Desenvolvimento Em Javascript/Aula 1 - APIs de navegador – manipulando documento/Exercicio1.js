@@ -5,7 +5,7 @@ let idade = parseInt(prompt('Informe sua idade: '));
 let body = document.body;
 let msg = document.getElementById('mensagem');
 
-if (idade <= 18) {
+if (idade < 18) {
     body.style.background = 'Darkred';
     msg.style.fontSize = 'xx-large';
     msg.style.color = 'Cornsilk';
