@@ -9,7 +9,7 @@ var y = 0;
 var altura = 10;
 var largura = 0;
 var fator = 60;
-var resolucao = 2000;
+var resolucao = 1920;
 
 // cor da barra requisitada pela equipe
 ctx.fillStyle = "#4169E1"; 
