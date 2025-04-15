@@ -30,16 +30,3 @@ de som.
 2. No "script", utilize "getContext("2d")" para desenhar o círculo e
 "addEventListener("click", function() {...})" para tocar o som.
 
-### Atividade 3 = Comunicando com o Servidor (Fetch API):
-
-Desenvolva um script que consuma dados de uma API pública e exiba informações
-dinamicamente na página.
-- Fazer uma requisição para a API pública JSONPlaceholder;
-- Exibir os títulos dos cinco primeiros posts em uma lista HTML "ul".
-
-Instruções:
-1. No "index.html", crie uma "ul" vazia onde os títulos serão exibidos.
-2. No "script", utilize "fetch()" para obter dados da API
-https://jsonplaceholder.typicode.com/posts.
-3. Após a resposta da API, use "response.json()" para converter os dados e atualizar
-a "ul".
