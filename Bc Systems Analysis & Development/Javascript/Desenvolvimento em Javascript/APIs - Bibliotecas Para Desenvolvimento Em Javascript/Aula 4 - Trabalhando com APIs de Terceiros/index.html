@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Título da página que aparece na aba do navegador -->
+    <title>Agência de turismo</title>
+
+    <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta charset="utf-8">
+
+    <!-- Importa a folha de estilo CSS personalizada -->
+    <link rel="stylesheet" href="destinos.css">
+
+    <!-- Biblioteca OpenLayers para mapas interativos -->
+    <!-- Importa o CSS do OpenLayers -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/css/ol.css"
+          type="text/css">
+
+    <!-- Importa o script JS do OpenLayers -->
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
+    <!-- Término da inclusão da biblioteca OpenLayers -->
+</head>
+<body>
+    <!-- Título principal da página -->
+    <h1 id="turismo">Destinos turísticos</h1>
+
+    <!-- Container com dois destinos turísticos -->
+    <div>
+        <div id="local-1"></div> <!-- Primeiro destino -->
+        <div id="local-2"></div> <!-- Segundo destino -->
+    </div>
+
+    <!-- Importa o script JS com a lógica da aplicação -->
+    <script src="destinos.js"></script>
+</body>
+</html>
