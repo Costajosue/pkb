@@ -38,3 +38,13 @@ In this other course I will be continuing the previous project but now establish
 
 **[Exercises](https://github.com/Costajosue/pkb/tree/main/JavaScript/Alura%20-%20Forma%C3%A7%C3%A3o%20JavaScript/Exercicios%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20-%20JavaScript%20-%20Parte%202)**
 
+
+#### Course: Programming Logic: Practicing with challenges:
+
+* Practice programming logic with different challenges
+* Use your knowledge to implement solutions
+* Reinforce your knowledge in programming logic
+* Develop projects to compose your portfolio
+* Improve your programming skills
+
+In this course I received projects with HTML and CSS ready just to do the back end part with Java Script.With this I had the opportunity to work on building the back-end using programming logic.
