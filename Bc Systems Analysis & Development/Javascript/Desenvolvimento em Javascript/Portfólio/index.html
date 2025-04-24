@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Josué</title>
+
+    <!-- css -->
+    <style>
+        body{
+            background-color: rgb(169, 159, 146);
+        }
+
+        h1{
+            color: #000;
+            text-align: center;
+        }
+
+        form {
+            margin: auto;
+            width: 20%;
+            padding: 20px;
+            background-color: rgb(239, 239, 242);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label{
+            display: block;
+        }
+
+        input[type="email"]{
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]{
+            background-color: beige;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- HTML -->
+    <!-- Criando formulario -->
+    <h1>Teste formulario de E-mail</h1><!-- Titulo -->
+
+    <form onsubmit="return validarEmail()"><!-- onsubmit (irá retornar outra função) -->
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email"/>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Javascript -->
+    <script>
+        function validarEmail(){
+            var email = document.getElementById("email").value;
+            var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; //Padrão para validar se uma string tem o formato de um endereço de e-mail.
+            if(!regex.test(email)){ // Testando se o teste não for verdadeiro (!).
+                alert('E-mail invalido! Por favor digite um E-mail valido');
+                return false;
+            }else{ // se o teste estiver ok. 
+                alert('tudo certo! E-mail: '+ email);
+            }
+        }
+    </script>
+</body>
+</html>
