@@ -1,6 +1,12 @@
 body {
     margin: 0; /*adicionando bordas*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*estilo da fonte*/
+    background-color: darkblue;
+}
+
+p{
+  text-align: center;
+  
 }
 
 header {
@@ -159,3 +165,4 @@ table {
     max-width: 20%; /* Impede que a imagem exceda a largura do contêiner */
     height: auto; /* Mantém a proporção da imagem */
   }
+
