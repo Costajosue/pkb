@@ -8,12 +8,16 @@
 </head>
 <body>
     <header></header>
-    <main>
-        <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1> <!-- Adicionando titulo h1 e strong para destacar; -->
-        <p>Olá! Sou Josué Costa, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-        <a href="https://www.instagram.com/_josue733/">Instagram</a> <!-- Adicionando ancoras de links; -->
-        <a href="https://github.com/Costajosue">GitHub</a>
-        <img src="imagemjosue.jpeg" alt="Imagem josue costa">
+    <main class="apresentacao"><!-- Elemento pai, aqui usamos o flexbox; -->
+        
+        <section class="apresentacao__conteudo"> <!-- Juntando os elementos; -->
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1> <!-- Adicionando titulo h1 e strong para destacar; um ponto é que criei uma classe para destacar somente ele -->
+            <p class="apresentacao__conteudo__texto">Olá! Sou Josué Costa, desenvolvedor Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            <a href="https://www.instagram.com/_josue733/">Instagram</a> <!-- Adicionando ancoras de links; -->
+            <a href="https://github.com/Costajosue">GitHub</a>
+        </section>
+
+        <img src="imagem_josue.jpeg" alt="Imagem josue costa">
     </main>
     <footer></footer>
 </body>
