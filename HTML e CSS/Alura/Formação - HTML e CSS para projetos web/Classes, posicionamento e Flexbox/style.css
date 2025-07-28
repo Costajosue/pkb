@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 /* Box Model */
 * {
@@ -16,7 +16,7 @@ body {
 }
 
 .apresentacao{
-    margin: 11%;
+    margin: 10% 15%;
     display: flex; /* Contêiner flexível*/
     align-items: center; /* Centraliza verticalmente os itens flexíveis*/
     justify-content: space-between; /* Separa 2 elementos laterais*/
@@ -24,6 +24,9 @@ body {
 
 .apresentacao__conteudo{
     width: 615px; /* Espaço */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -35,4 +38,20 @@ body {
     font-size: 24px; /* Tamanho fonte*/
     font-family: "Montserrat", sans-serif; /* Selecionado a familia e a fonte*/
 
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__links__link{
+    background-color: #22D4FD;
+    width: 240px;
+    text-align: center; /* Alinhando o texto dentro do botão */
+    border-radius: 16px; /* Raio de borda do botão */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: 600;
+    padding: 21.5px 0; /* Espaçamento */
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif; /* Selecionado a familia e a fonte*/
 }
