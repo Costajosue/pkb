@@ -5,13 +5,9 @@ Hi! My name is Josué and this is my main repository where I organize my studies
 
 ## 📚 Áreas de conhecimento / Areas of Knowledge
 
-- 🤖 **[Inteligência Artificial / Artificial Intelligence](https://github.com/Costajosue/pkb/tree/main/Artificial%20intelligence)**  
-  Conceitos básicos, modelos de machine learning, redes neurais e aplicações práticas.  
-  Basic concepts, machine learning models, neural networks, and practical applications.
-
 - 💻 **[Análise e Desenvolvimento de Sistemas / Systems Analysis and Development](https://github.com/Costajosue/pkb/tree/main/Bc%20Systems%20Analysis%20%26%20Development)**  
-  Fundamentos da engenharia de software, lógica de programação e estruturação de sistemas.  
-  Software engineering fundamentals, programming logic, and system design.
+  Fundamentos aprendidos na faculdade, lógica de programação e estruturação de sistemas.  
+  Fundamentals learned in college, programming logic, and system design.
 
 - 🔧 **[Git e GitHub](https://github.com/Costajosue/pkb/tree/main/Git%20e%20Github)**  
   Controle de versão, boas práticas com Git e gerenciamento de repositórios no GitHub.  
@@ -26,12 +22,12 @@ Hi! My name is Josué and this is my main repository where I organize my studies
   Dynamic web programming, DOM manipulation, and scripting logic.
 
 - 🐍 **[Python](https://github.com/Costajosue/pkb/tree/main/Python)**  
-  Sintaxe, automação, projetos com bibliotecas e lógica para análise de dados.  
-  Syntax, automation, projects with libraries, and data analysis logic.
+  Logica de programação, Sintaxe, automação, projetos com bibliotecas e lógica para análise de dados.  
+  Programming logic, Syntax, automation, projects with libraries, and data analysis logic.
 
 - 🗄️ **[SQL](https://github.com/Costajosue/pkb/tree/main/SQL)**  
-  Manipulação de bancos de dados relacionais, comandos CRUD e consultas avançadas.  
-  Working with relational databases, CRUD operations, and advanced queries.
+  Manipulação de bancos de dados relacionais e consultas avançadas.  
+  Working with relational databases and advanced queries.
 
 ## 🚀 Objetivo / Goal
 
