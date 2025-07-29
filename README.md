@@ -1,50 +1,44 @@
-<!-- # Public Knowledge Base 💻
+# 🌐 Repositório Principal / Main Repository
 
-#### hello, welcome to my repository that aims to show my knowledge and skills acquired during my studies on programming.
+Olá! Meu nome é Josué e este é o meu repositório principal onde organizo meus estudos, projetos e anotações de cursos.  
+Hi! My name is Josué and this is my main repository where I organize my studies, projects, and course notes.
 
-## See some of the themes that can be found in this repository:
+## 📚 Áreas de conhecimento / Areas of Knowledge
 
-* **[JavaScript](https://github.com/Costajosue/pkb/tree/main/JavaScript)** In this repository I show my entire journey with the Javascript language with a complete course of the language, I also show some exercises
+- 🤖 **[Inteligência Artificial / Artificial Intelligence](https://github.com/Costajosue/pkb/tree/main/Artificial%20intelligence)**  
+  Conceitos básicos, modelos de machine learning, redes neurais e aplicações práticas.  
+  Basic concepts, machine learning models, neural networks, and practical applications.
 
-* **[Python](https://github.com/Costajosue/pkb/tree/main/Python)** In this repository I show my entire journey with the python language
+- 💻 **[Análise e Desenvolvimento de Sistemas / Systems Analysis and Development](https://github.com/Costajosue/pkb/tree/main/Bc%20Systems%20Analysis%20%26%20Development)**  
+  Fundamentos da engenharia de software, lógica de programação e estruturação de sistemas.  
+  Software engineering fundamentals, programming logic, and system design.
 
-* **[Imersão Dev com Google Gemini](https://github.com/Costajosue/public-Knowledge-base/tree/main/Imers%C3%A3o%20Dev%20com%20gemini)** Creating my first website in HTML, CSS and Javascript.
+- 🔧 **[Git e GitHub](https://github.com/Costajosue/pkb/tree/main/Git%20e%20Github)**  
+  Controle de versão, boas práticas com Git e gerenciamento de repositórios no GitHub.  
+  Version control, Git best practices, and GitHub repository management.
 
-* **[Bc Systems Analysis & Development](https://github.com/Costajosue/public_knowledge_base/tree/main/Python/Curso%20em%20video%20-%20Mundo%20III)** In this repository you will find some of my learnings in relation to the systems analysis and development course. -->
+- 🎨 **[HTML e CSS](https://github.com/Costajosue/pkb/tree/main/HTML%20e%20CSS)**  
+  Desenvolvimento de páginas web com foco em estrutura e design responsivo.  
+  Web development focusing on structure and responsive design.
 
-# 🌐 Bem-vindo ao meu repositório principal!
+- 🧠 **[JavaScript](https://github.com/Costajosue/pkb/tree/main/JavaScript)**  
+  Programação dinâmica para páginas web, manipulação do DOM e lógica de scripts.  
+  Dynamic web programming, DOM manipulation, and scripting logic.
 
-Olá! Meu nome é Josué e este é o meu repositório principal onde organizo todos os meus estudos, projetos e anotações de cursos. Aqui você encontrará conteúdos que venho aprendendo ao longo da minha jornada na área de tecnologia.
+- 🐍 **[Python](https://github.com/Costajosue/pkb/tree/main/Python)**  
+  Sintaxe, automação, projetos com bibliotecas e lógica para análise de dados.  
+  Syntax, automation, projects with libraries, and data analysis logic.
 
-## 📚 Áreas de conhecimento
+- 🗄️ **[SQL](https://github.com/Costajosue/pkb/tree/main/SQL)**  
+  Manipulação de bancos de dados relacionais, comandos CRUD e consultas avançadas.  
+  Working with relational databases, CRUD operations, and advanced queries.
 
-- 🤖 **Inteligência Artificial**  
-  Conceitos básicos, modelos de machine learning, redes neurais e aplicações práticas.
+## 🚀 Objetivo / Goal
 
-- 💻 **Análise e Desenvolvimento de Sistemas**  
-  Fundamentos da engenharia de software, lógica de programação e estruturação de sistemas.
+Organizar meu aprendizado de forma prática, documentar meu progresso e compartilhar conhecimento com a comunidade.  
+To organize my learning in a practical way, document my progress, and share knowledge with the community.
 
-- 🔧 **Git e GitHub**  
-  Controle de versão, boas práticas com Git e gerenciamento de repositórios no GitHub.
+## 📌 Observações / Notes
 
-- 🎨 **HTML e CSS**  
-  Desenvolvimento de páginas web com foco em estrutura e design responsivo.
-
-- 🧠 **JavaScript**  
-  Programação dinâmica para páginas web, DOM, eventos e lógica de scripts.
-
-- 🐍 **Python**  
-  Sintaxe, automação, projetos com bibliotecas e lógica para análise de dados.
-
-- 🗄️ **SQL**  
-  Manipulação de bancos de dados relacionais, comandos CRUD e consultas avançadas.
-
-## 🚀 Objetivo
-
-Organizar meu aprendizado de forma prática, documentando meu progresso e compartilhando conhecimento com a comunidade.
-
-## 📌 Observações
-
-Este repositório está em constante atualização conforme avanço nos meus estudos e projetos.
-
----
+Este repositório está em constante atualização conforme avanço nos meus estudos.  
+This repository is constantly being updated as I progress in my studies.
