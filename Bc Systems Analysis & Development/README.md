@@ -1,3 +1,7 @@
-# Bc Systems Analysis & Development
+# 🎓 Análise e Desenvolvimento de Sistemas | Systems Analysis & Development
 
-### Hello, welcome to my repository which aims to show my knowledge and skills acquired during my training in Systems Development Analysis and I aim to show my entire journey as a student.
+### Olá! Seja bem-vindo ao meu repositório, onde compartilho os conhecimentos e habilidades adquiridos durante minha formação em Análise e Desenvolvimento de Sistemas. Aqui você poderá acompanhar toda a minha jornada como estudante.
+
+---
+
+### Hello! Welcome to my repository, where I share the knowledge and skills I have gained during my training in Systems Analysis and Development. Here, you can follow my entire journey as a student.

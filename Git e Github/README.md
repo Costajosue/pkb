@@ -1,12 +1,16 @@
-- **Seja bem Vindo ao meu repositorio de Git e Github:**
+# 👋 Seja bem-vindo ao meu repositório de Git e GitHub!
 
-Neste repositorio mosto todo o aprendizado e pratica que adiquiria ao realizar o curso de Git e GitHub: compartilhando e colaborando em projetos na plataforma da Alura**
+Neste repositório compartilho todo o aprendizado e as práticas que adquiri ao realizar o curso **Git e GitHub: compartilhando e colaborando em projetos**, oferecido pela [Alura](https://www.alura.com.br/).
 
-### Abaixo listo algumas coisas que aprendi no curso:
+---
 
-Crie seu portfólio de projetos no GitHub
-Aprenda a compartilhar o código de seus projetos no GitHub
-Entenda como colaborar em projetos
-Faça o versionamento de um projeto de software utilizando o Git
-Lide com conflitos em códigos utilizando o Git
-Analise e modifique o histórico de commits de um repositório Git
+## 📚 O que aprendi durante o curso:
+
+✅ Criar um portfólio de projetos no GitHub  
+✅ Compartilhar o código dos meus projetos com o mundo  
+✅ Entender como colaborar em projetos de forma eficiente  
+✅ Realizar o versionamento de um projeto de software com Git  
+✅ Resolver conflitos de código com o Git  
+✅ Analisar e modificar o histórico de commits de um repositório
+
+---
