@@ -6,17 +6,31 @@
     padding: 0;
 }
 body {
-    height: 100vh; /* Ocupando toda a tela */
+    /* height: 100vh; Ocupando toda a tela */
     box-sizing: border-box; /* Para que nenhum elemento saia de ordem.*/
     background-color: black; /* Cor de fundo  */
     color: #F6F6F6; /* Cor do texto!  */
 }
-.titulo-destaque {
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #22D4FD;
+    text-decoration: none;
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex; /* Contêiner flexível*/
     align-items: center; /* Centraliza verticalmente os itens flexíveis*/
     justify-content: space-between; /* Separa 2 elementos laterais*/
@@ -32,6 +46,10 @@ body {
 .apresentacao__conteudo__titulo{
     font-size: 36px; /* Tamanho fonte*/
     font-family: "Krona One", sans-serif; /* Selecionado a familia e a fonte*/
+}
+
+.titulo-destaque {
+    color: #22D4FD;
 }
 
 .apresentacao__conteudo__texto{
@@ -53,6 +71,9 @@ body {
 }
 .apresentacao__links__link{
     width: 378px;
+    display: flex;
+    justify-content: center; /* centralizar */
+    gap: 16px;/* espaço*/
     border: 2px solid #22D4FD; /*adicionado borda*/
     text-align: center; /* Alinhando o texto dentro do botão */
     border-radius: 8px; /* Raio de borda do botão */
@@ -61,5 +82,19 @@ body {
     padding: 21.5px 0; /* Espaçamento */
     text-decoration: none;
     color: #F6F6F6;
-    font-family: "Montserrat", sans-serif; /* Selecionado a familia e a fonte*/
+    font-family: "Montserrat", sans-serif; /* Selecionado a familia e a fonte*/    
+}
+.apresentacao__links__link:hover{
+    background-color: #272727;
+    font-size: 180%;
+}
+
+.rodape{
+    color: #000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
