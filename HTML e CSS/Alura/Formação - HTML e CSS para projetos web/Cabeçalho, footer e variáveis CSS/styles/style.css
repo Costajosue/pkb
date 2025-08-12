@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+
+:root{ /* Onde podemos criar variaveis */
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+}
+
 /* Box Model */
 * {
     border: 0;
@@ -8,8 +16,8 @@
 body {
     /* height: 100vh; Ocupando toda a tela */
     box-sizing: border-box; /* Para que nenhum elemento saia de ordem.*/
-    background-color: black; /* Cor de fundo  */
-    color: #F6F6F6; /* Cor do texto!  */
+    background-color: var(--cor-primaria); /* Cor de fundo  */
+    color: var(--cor-secundaria); /* Cor do texto!  */
 }
 
 .cabecalho{
@@ -25,7 +33,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     text-decoration: none;
 }
 
@@ -49,7 +57,7 @@ body {
 }
 
 .titulo-destaque {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto{
@@ -74,24 +82,24 @@ body {
     display: flex;
     justify-content: center; /* centralizar */
     gap: 16px;/* espaço*/
-    border: 2px solid #22D4FD; /*adicionado borda*/
+    border: 2px solid var(--cor-terciaria); /*adicionado borda*/
     text-align: center; /* Alinhando o texto dentro do botão */
     border-radius: 8px; /* Raio de borda do botão */
     font-size: 24px; /* Tamanho da fonte */
     font-weight: 600;
     padding: 21.5px 0; /* Espaçamento */
     text-decoration: none;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-family: "Montserrat", sans-serif; /* Selecionado a familia e a fonte*/    
 }
 .apresentacao__links__link:hover{
-    background-color: #272727;
+    background-color: var(--cor-hover);
     font-size: 180%;
 }
 
 .rodape{
-    color: #000;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
