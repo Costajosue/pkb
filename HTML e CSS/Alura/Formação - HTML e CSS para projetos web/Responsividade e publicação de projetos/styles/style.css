@@ -39,13 +39,14 @@ body {
 
 .apresentacao{
     padding: 5% 15%;
+    gap: 82px;
     display: flex; /* Contêiner flexível*/
     align-items: center; /* Centraliza verticalmente os itens flexíveis*/
     justify-content: space-between; /* Separa 2 elementos laterais*/
 }
 
 .apresentacao__conteudo{
-    width: 615px; /* Espaço */
+    width: 50%; /* Espaço */
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -77,8 +78,8 @@ body {
     font-weight: 400;
     font-size: 1.5rem;
 }
-.apresentacao__links__link{
-    width: 378px;
+.apresentacao__links__navegacao{
+    width: 50%;
     display: flex;
     justify-content: center; /* centralizar */
     gap: 16px;/* espaço*/
@@ -97,6 +98,10 @@ body {
     font-size: 180%;
 }
 
+.apresentcao__imagem{
+    width: 50%;
+}
+
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
@@ -105,4 +110,23 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 1200px) { /* Em telas menores de 1200px */
+
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
 }
